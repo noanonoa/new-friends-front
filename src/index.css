@@ -1,0 +1,619 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap"); */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#welcomeHeader {
+  color: black;
+  height: 150px;
+  background-color:white;
+  display: flex;
+  display: row;
+  justify-content: center;
+  
+} 
+
+
+#welcomepic {
+  position: absolute;
+  left: 13%;
+  top: 25%;
+  height: 600px;
+  width: 600px;
+}
+
+#signup{
+  display: flex;
+  position: center;
+  
+}
+
+.signup {
+  padding: 50px;
+  background-color: lightgreen;
+  /* background-image: url(); */
+  background-repeat:  no-repeat;
+  background-size: cover ;
+  width: 100%;
+  }
+
+.signupSigninBackground {
+  background-image: url("https://www.maven-infotech.com/wp-content/uploads/2020/01/119059.jpg");
+  width: 100vw;
+  height: 100vh; 
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+
+#form {
+  margin: 0 auto;
+  height: 600px;
+  width: 1000px;
+  position: relative;;
+  justify-content: center;
+  padding: 25px;
+  
+}
+
+#login {
+  margin: 0 auto;
+  height: 400px;
+  width: 1100px;
+  position: relative;
+  left:25%; 
+  top:0%; 
+  color: black;
+  
+}
+  
+
+#loginForm {
+  display: flex;
+  align-items: center;
+ 
+}
+.form-group {
+ padding: 10px;
+  
+}
+
+#btn2 {
+  height: 50px;
+  width: 100px;
+  
+}
+
+
+
+
+#mainbox {
+  height: 90%;
+  width:80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  object-fit: fill;
+  
+}
+
+#mainpic {
+  height: 500px;
+}
+
+.mainboxouter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* .navbar {
+background-color: aqua;
+display: flex;
+justify-content: space-between;
+
+} */
+
+
+.mainBtnRow {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+
+.btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  
+}
+
+.btn:hover{
+  height: 50px;
+  width: 200px;
+  opacity: 50%;
+}
+
+
+.main {
+  background-color: cadetblue;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left:35%;
+  display: flex;
+  justify-content: center;
+}
+
+#addbtn {
+height: 100px;
+width: 100px;
+}
+
+#lessbtn {
+height: 100px;
+width: 125px;
+
+}
+
+#logo {
+  height: 120px;
+  width: 125px;
+  padding: 5px;
+
+}
+
+.chatheader{
+  display: flex;
+  justify-content: start;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+h1 {
+  color: black;
+  font-family: 'Nobile', sans-serif;
+  font-size: x-large;
+  /* font-family: 'Gloria Hallelujah', cursive; */
+  
+} 
+
+#profileCard {
+display: flex;
+justify-content: center;
+
+}
+
+#bgvid {
+  /* object-fit: cover; */
+  /* height: 400px;
+  width: 300px; */
+  width: 100vw;
+  height: 100vh; 
+  position: relative;
+  /* background-color: lightblue; */
+   top: 0;
+  left: 0; 
+}
+
+
+
+.newBodyBackground {
+background-image: url("https://www.maven-infotech.com/wp-content/uploads/2020/01/119059.jpg");
+width: 100vw;
+  height: 100vh; 
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+/*  -------------------Welcome __________------------------ */
+
+
+.background-img{
+  background-image: url("https://lh3.googleusercontent.com/proxy/Mg7n94pLV21iS6QE4lu6PVEMFr2_-Dfkc4OBFJ4bqKTlgbNKBNBosdo2-WcBi-6axbuOYCGYodli-KUXPdCmC9bkylRY3F2sVLgc0XnKO_igLt9MubdBB855AyzODpJj3lxgH4lMV_sL5EdzzJlI7eZWemxtRgE2aA");
+  height: 400px;
+  width: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% auto;
+  padding:20px; 
+  border: 1px solid #2a3cad;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #2a3cad;
+  position: relative;
+  opacity: 80%;
+}  /*  Box Code */
+
+.content h2{ font-size:19px;}
+
+.box{           /* Base code for the fancy BOX */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background: #111845a6;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgb(23, 32, 90);
+  border: 2px solid #2a3cad;
+  color: white;
+  padding: 20px;
+} 
+
+.box:before{   /* Code effect Gray fade on hover effect */
+  content: '';
+  position:absolute;
+  top:0;
+  left:-100%;
+  width:100%;
+  height:100%;
+  background: rgba(255,255,255,0.1);
+  transition:0.5s;
+  pointer-events: none;
+}
+
+.box:hover:before{
+  left:-50%;
+  transform: skewX(-5deg);
+}
+.box .content{              /* Code for inner yellow box */
+  position:absolute;
+  top:15px;
+  left:15px;
+  right:15px;
+  bottom:15px;
+  border:1px solid #f0a591;
+  padding:20px;
+  text-align:center;
+  box-shadow: 0 5px 10px rgba(9,0,0,0.5); 
+}
+.box span {           /*  Code Effects blue line animation  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+}  
+
+/*  This controls Animation of the blue line around the box*/
+
+.box span:nth-child(1)
+{
+  transform:rotate(0deg);
+}
+
+.box span:nth-child(2)
+{
+  transform:rotate(90deg);
+}
+
+.box span:nth-child(3)
+{
+  transform:rotate(180deg);
+}
+
+.box span:nth-child(4)
+{
+  transform:rotate(270deg);
+}
+
+.box span:before
+{
+  content: '';
+  position: absolute;
+  width:100%;
+  height: 2px;
+  background: #50dfdb;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+  transform:scaleX(0);
+  transform-origin: left;
+  }
+  50%
+  {
+    transform:scaleX(1);
+  transform-origin: left;
+  }
+  50.1%
+  {
+    transform:scaleX(1);
+  transform-origin: right;
+    
+  }
+  
+  100%
+  {
+    transform:scaleX(0);
+  transform-origin: right;
+    
+  }
+} 
+/*  End of fancy box code. Start of regular CSS code---------------------- */
+
+    body {
+       margin: 0 auto; 
+      text-align: center;
+      width: 100vw;
+      height: 100vh; 
+      position: relative;
+      background: url("https://www.globalwomenconnected.com/wp-content/uploads/2017/04/o-HAPPY-FRIEND-facebook.jpg") no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; 
+       background-size: cover;
+}
+      
+    
+    p {
+      font-size: 20px;
+      padding: 7px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: blue;
+      color: white;
+    }
+      @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    
+/*  Style Code for the Like Friend Components LIKE STYLE ------------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  background-color: #f7f7f7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+
+ 
+
+.app {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+}
+
+header {
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+}
+
+header {
+	background-color: white;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px 5px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+header button {
+	background-color: transparent;
+	border: 0;
+	width: 50px;
+	cursor: pointer;
+}
+
+header button img {
+	width: 100%;
+}
+
+header .fl {
+	float: left;
+	width: 33%;
+}
+
+header .fl:first-child {
+	text-align: left;
+}
+
+header .fl:last-child {
+	text-align: right;
+}
+
+.person .person-photo {
+	overflow: hidden;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.3);
+}
+
+.person .person-description {
+	text-align: left;
+	padding: 20px;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+	border-radius: 1px;
+	background-color: white;
+}
+
+.person .person-name-age {
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.person .person-info {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.person img {
+	width: 500px;
+	height: 700px;
+	display: block;
+	object-fit: cover;
+}
+
+#actions {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+#actions button {
+	width: 50px;
+	height: 50px;
+	margin-right: 30px;
+	padding: 12px;
+	border: 0;
+	border-radius: 50px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	cursor: pointer;
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+#actions button img {
+	width: 100%;
+	height: auto;
+}
+
+#actions button:nth-of-type(2),
+#actions button:nth-of-type(3) {
+	width: 60px;
+	height: 60px;
+	padding: 15px;
+}
+
+#lonely {
+	padding: 10px;
+	border-radius: 1px;
+	background-color: white;
+	border-top: 1px solid #eee;
+}
+
+#liked-people {
+	margin: auto;
+	overflow: hidden;
+}
+
+#liked-people .liked-person {
+	display: inline-block;
+	width: 33%;
+	margin-top: 10px;
+}
+
+#liked-people .liked-person-image {
+	border-radius: 5px;
+}
+
+#liked-people .liked-person-image img {
+	width: 140px;
+	height: 100px;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+/* Stolen CSS */
+.pulse {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FFDEDF;
+  box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+  -webkit-animation: pulse 2s infinite;
+  animation: pulse 2s infinite;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  border: 3px solid #F5C9CA;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pulse img {
+  width: 70%;
+  border-radius: 100px;
+  border: 5px solid white;
+}
+
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+		-webkit-box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+  }
+  100% {
+		-webkit-box-shadow: 0 0 0 35px rgba(241, 201, 202, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+    box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+  }
+  100% {
+		-moz-box-shadow: 0 0 35px 35px rgba(241, 201, 202, 0);
+		box-shadow: 0 0 35px 35px rgba(241, 201, 202, 0);
+  }
+}
+
